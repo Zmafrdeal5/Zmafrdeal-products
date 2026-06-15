@@ -13,9 +13,9 @@ const app  = express();
 const PORT = process.env.PORT || 3000;
 
 // ─── Supabase clients ────────────────────────────────────────────────────────
-const SUPABASE_URL     = 'https://tfirfgiwgcagbwjeptbp.supabase.co';
-const SUPABASE_ANON    = 'sb_publishable_L_F839UxiYH8yMlIgXmyBA_2D34OC8R';
-const SUPABASE_SERVICE = 'sb_secret_NXqUGlJ06575Jf0T6HBimg_MYSYhcLo';
+const SUPABASE_URL     = 'https://pgtpyuqtcambtyyroexh.supabase.co';
+const SUPABASE_ANON    = 'sb_publishable_K_Zr6DtTo6L2MDopioaA0A_d_Kd05qL';
+const SUPABASE_SERVICE = 'sb_secret_3kdBUWJQKBbB7Nw9wiA2sQ_MH0ExgNj';
 
 const supabasePublic = createClient(SUPABASE_URL, SUPABASE_ANON);
 const supabaseAdmin  = createClient(SUPABASE_URL, SUPABASE_SERVICE, {
